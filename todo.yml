@@ -3,6 +3,9 @@
   become: yes
   ## THis become can also be used at task level
   roles:
+    - role: redis
+      tags: redis
+      when: COMPONENT == "redis"
     - role: frontend
       tags: frontend
       when: COMPONENT == "frontend"
@@ -14,10 +17,6 @@
     - role: todo
       tags: todo
       when: COMPONENT == "todo"
-
-    - role: redis
-      tags: redis
-      when: COMPONENT == "redis"
 
     - role: users
       tags: users
