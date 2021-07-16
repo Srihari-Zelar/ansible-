@@ -1,0 +1,42 @@
+- name: Install Nginx
+  apt:
+    name: nginx
+    update_cache: yes
+    state: present
+
+- name: Start service nginx
+  nginx service:
+    state: started
+
+- name: Install npm
+  apt:
+    name: npm
+    update_cache: yes
+    state: present
+
+- name: Go to the folder
+  command: chdir=/var/www/html
+
+- name: Creates directory
+  file:
+    path: /app
+    state: directory
+
+- name: Go to the folder
+  command: chdir=/app
+
+- name: Download Frontend from Nexus
+  get_url:
+    url:
+    dest: /tmp/frontend.zip
+    username: admin
+    password: Bunny
+
+- name: Go to the folder
+  command: chdir=/frontend
+
+- name: Install npm
+  apt:
+    name: npm install --save-dev  --unsafe-perm node-sass
+    update_cache: yes
+    state: present
