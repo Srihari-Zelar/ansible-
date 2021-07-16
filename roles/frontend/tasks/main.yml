@@ -20,7 +20,6 @@
     - /etc/nginx/sites-enabled/default
     - /etc/nginx/sites-available/default
 
-
 - name: Create HtDocs Directory
   file:
     path: /var/www/html/frontend

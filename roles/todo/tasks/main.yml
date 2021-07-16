@@ -1,22 +1,5 @@
-- name: Install npm
-  apt:
-    name: npm
-    update_cache: yes
-    state: present
-
-- name: Download Frontend from Nexus
-  get_url:
-    url:
-    dest: /tmp/todo.zip
-    username: admin
-    password: Bunny
-
-- name: Go to the folder
-  command: chdir=/todo
-
-- name: Install npm
-  apt:
-    name: npm install --save-dev  --unsafe-perm node-sass
-    update_cache: yes
-    state: present
+- name: Import NODEJS Common role
+  include_role:
+    name: common
+    tasks_from: nodejs
 
