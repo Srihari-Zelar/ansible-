@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cf2d887-8bf5-4f9b-9ae9-03c802c9d4f8" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/roles/common/tasks/dw-nx-artifacts.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/common/tasks/golang.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/common/tasks/java.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/common/tasks/nodejs.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/common/tasks/setup-systemd.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/login/meta/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/login/templates/login.service" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/redis/meta/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/todo/meta/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/todo/templates/todo.service" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/users/meta/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/users/templates/users.service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/common/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roles/frontend/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/frontend/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/login/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/login/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/todo/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/todo/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/users/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/users/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626436673671</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1626438136098</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1626438136098</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
