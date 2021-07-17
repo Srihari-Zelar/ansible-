@@ -2,7 +2,8 @@
 Description=Todo Service
 
 [Service]
-Environment=REDIS_HOST=redis-{{ENV}}.venu6766.tk
+Environment=REDIS_HOST=redis-{{ENV}}.ksrihari.online:8080
+Environment=TODOS_API_PORT=8080
 ExecStart=/bin/node /home/ubuntu/todo/server.js
 SyslogIdentifier =todo
 
