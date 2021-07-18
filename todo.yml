@@ -5,23 +5,23 @@
   roles:
     - role: redis
       tags: redis
-     # when: COMPONENT == "redis"
+      when: COMPONENT == "redis"
 
     - role: todo
       tags: todo
-      #when: COMPONENT == "todo"
+      when: COMPONENT == "todo"
 
     - role: users
       tags: users
-      #when: COMPONENT == "users"
+      when: COMPONENT == "users"
 
     - role: login
       tags: login
-      #when: COMPONENT == "login"
+      when: COMPONENT == "login"
 
     - role: frontend
       tags: frontend
-      #when: COMPONENT == "frontend"
+      when: COMPONENT == "frontend"
 
 
 
