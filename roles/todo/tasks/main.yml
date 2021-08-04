@@ -3,3 +3,8 @@
     name: common
     tasks_from: nodejs
 
+- name: Restart Todo
+  systemd:
+    name: todo
+    state: restarted
+    enabled: yes

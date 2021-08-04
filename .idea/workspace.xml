@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cf2d887-8bf5-4f9b-9ae9-03c802c9d4f8" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/todo.yml" beforeDir="false" afterPath="$PROJECT_DIR$/todo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/frontend/handlers/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instance-create/create.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instance-create/create.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/frontend/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/frontend/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/frontend/templates/todo.conf" beforeDir="false" afterPath="$PROJECT_DIR$/roles/frontend/templates/todo.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/todo/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/todo/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626585567294</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update">
+      <created>1626585794555</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1626585794555</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

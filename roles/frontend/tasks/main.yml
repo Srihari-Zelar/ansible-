@@ -6,7 +6,7 @@
 
 - name: Download Frontend from Nexus
   get_url:
-    url: http://172.31.4.34:8081/repository/frontend/frontend-{{APP_VERSION}}.zip
+    url: http://172.31.14.101:8081/repository/frontend/frontend-{{APP_VERSION}}.zip
     dest: /tmp/frontend.zip
     username: admin
     password: Bunny
@@ -34,9 +34,4 @@
   template:
     src: todo.conf
     dest: /etc/nginx/sites-enabled/todo.conf
-
-- name: Start Nginx
-  systemd:
-    state: restarted
-    name: nginx
-    enabled: yes
+  notify: Restart Nginx
